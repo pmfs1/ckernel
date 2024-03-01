@@ -1,0 +1,23 @@
+[package]
+name=make
+author=pmfs1
+
+[source]
+/usr/src/utils/make/
+
+[files]
+/usr/src/utils/make/
+/usr/bin/make.exe
+
+[dependencies]
+cc
+clib
+
+[build]
+cd /usr/src/utils/make ; cc make.c
+
+[install]
+cd /usr/src/utils/make ; cc make.c ; cp make.exe /usr/bin/
+
+[license]
+OSL-3.0

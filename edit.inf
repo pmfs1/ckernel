@@ -1,0 +1,23 @@
+[package]
+name=edit
+author=pmfs1
+
+[source]
+/usr/src/utils/edit/
+
+[files]
+/usr/src/utils/edit/
+/bin/edit.exe
+/bin/less.exe
+
+[dependencies]
+sdk
+
+[build]
+make -C /usr/src/utils/edit
+
+[install]
+make -C /usr/src/utils/edit install
+
+[license]
+OSL-3.0

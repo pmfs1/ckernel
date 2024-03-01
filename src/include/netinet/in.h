@@ -1,0 +1,79 @@
+//
+// Internet address family
+//
+#if _MSC_VER > 1000
+#pragma once
+#endif
+
+#ifndef NETINET_IN_H
+#define NETINET_IN_H
+
+#ifndef _IN_PORT_T_DEFINED
+#define _IN_PORT_T_DEFINED
+typedef unsigned short in_port_t;
+#endif
+
+#ifndef _IN_ADDR_T_DEFINED
+#define _IN_ADDR_T_DEFINED
+typedef unsigned long in_addr_t;
+#endif
+
+#ifndef _IN_ADDR_DEFINED
+#define _IN_ADDR_DEFINED
+
+struct in_addr {
+    union {
+        struct {
+            unsigned char s_b1, s_b2, s_b3, s_b4;
+        } s_un_b;
+        struct {
+            unsigned short s_w1, s_w2;
+        } s_un_w;
+        unsigned long s_addr;
+    };
+};
+
+#endif
+
+#ifndef _SOCKADDR_IN_DEFINED
+#define _SOCKADDR_IN_DEFINED
+
+struct sockaddr_in {
+    unsigned short sin_family;
+    unsigned short sin_port;
+    struct in_addr sin_addr;
+    char sin_zero[8];
+};
+
+#endif
+
+#define IPPROTO_IP       0
+#define IPPROTO_ICMP     1
+#define IPPROTO_TCP      6
+#define IPPROTO_UDP      17
+
+#define INADDR_ANY       0
+#define INADDR_BROADCAST 0xffffffff
+
+#ifndef _XTONX_DEFINED
+#define _XTONX_DEFINED
+
+__inline unsigned short htons(unsigned short n) {
+    return ((n & 0xFF) << 8) | ((n & 0xFF00) >> 8);
+}
+
+__inline unsigned short ntohs(unsigned short n) {
+    return ((n & 0xFF) << 8) | ((n & 0xFF00) >> 8);
+}
+
+__inline unsigned long htonl(unsigned long n) {
+    return ((n & 0xFF) << 24) | ((n & 0xFF00) << 8) | ((n & 0xFF0000) >> 8) | ((n & 0xFF000000) >> 24);
+}
+
+__inline unsigned long ntohl(unsigned long n) {
+    return ((n & 0xFF) << 24) | ((n & 0xFF00) << 8) | ((n & 0xFF0000) >> 8) | ((n & 0xFF000000) >> 24);
+}
+
+#endif
+
+#endif

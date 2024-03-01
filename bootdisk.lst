@@ -1,0 +1,47 @@
+/bin
+/boot
+/etc
+/dev
+/mnt
+/proc
+/usr
+/tmp
+/var
+
+/boot/boot         boot\boot
+/boot/cdboot       boot\cdboot
+/boot/cdemboot     boot\cdemboot
+/boot/netboot      boot\netboot
+/boot/osldr.dll    boot\osldr.dll
+/boot/os.dll       boot\os.dll
+/boot/krnl.ini     boot\krnl.ini
+
+/bin/sh.exe        bin\sh.exe
+/bin/telnetd.exe   bin\telnetd.exe
+/bin/ftpd.exe      bin\ftpd.exe
+/bin/setup.exe     bin\setup.exe
+/bin/fdisk.exe     bin\fdisk.exe
+/bin/mkboot.exe    bin\mkboot.exe
+/bin/edit.exe      bin\edit.exe
+/bin/login.exe     bin\login.exe
+
+/boot/pcnet32.sys   boot\pcnet32.sys
+/boot/ne2000.sys    boot\ne2000.sys
+/boot/3c905c.sys    boot\3c905c.sys
+/boot/rtl8139.sys   boot\rtl8139.sys
+/boot/eepro100.sys  boot\eepro100.sys
+/boot/sis900.sys    boot\sis900.sys
+/boot/tulip.sys     boot\tulip.sys
+/boot/virtionet.sys boot\virtionet.sys
+
+/bin/msvcrt.dll    bin\msvcrt.dll
+/bin/kernel32.dll  bin\kernel32.dll
+/bin/user32.dll    bin\user32.dll
+/bin/advapi32.dll  bin\advapi32.dll
+/bin/winmm.dll     bin\winmm.dll
+/bin/wsock32.dll   bin\wsock32.dll
+
+/bin/jinit.exe     bin\jinit.exe
+
+/etc/os.ini        etc\os.ini
+/etc/setup.ini     etc\setup.ini

@@ -1,0 +1,16 @@
+[package]
+name=as
+version=0.1
+
+[source]
+/usr/src/utils/as/
+
+[prebuilt]
+/usr/bin/as.exe
+
+[files]
+/usr/src/utils/as/
+/usr/bin/as.exe
+
+[build]
+make -C /usr/src/utils/as

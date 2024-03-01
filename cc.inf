@@ -1,0 +1,16 @@
+[package]
+name=cc
+version=0.1
+
+[source]
+/usr/src/utils/cc/
+
+[prebuilt]
+/usr/bin/cc.exe
+
+[files]
+/usr/src/utils/cc/
+/usr/bin/cc.exe
+
+[build]
+make -C /usr/src/utils/cc

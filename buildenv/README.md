@@ -1,0 +1,1 @@
+****`GCC` for targetting `x86_64-elf`*** is a cross-compiler that runs on a host system (e.g. `Linux`) and generates code for a target system (e.g. `x86_64-elf`). This is useful for building a kernel, bootloader, or other low-level software that runs directly on the hardware.*

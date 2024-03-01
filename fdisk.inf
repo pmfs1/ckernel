@@ -1,0 +1,22 @@
+[package]
+name=fdisk
+author=pmfs1
+
+[source]
+/usr/src/utils/fdisk/
+
+[files]
+/usr/src/utils/fdisk/
+/bin/fdisk.exe
+
+[dependencies]
+sdk
+
+[build]
+make -C /usr/src/utils/fdisk
+
+[install]
+make -C /usr/src/utils/fdisk install
+
+[license]
+OSL-3.0

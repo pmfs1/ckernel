@@ -1,0 +1,24 @@
+[package]
+name=ar
+author=pmfs1
+
+[source]
+/usr/src/utils/ar/
+
+[files]
+/usr/src/utils/ar/
+/usr/bin/ar.exe
+
+[dependencies]
+cc
+clib
+make
+
+[build]
+make -C /usr/src/utils/ar
+
+[install]
+make -C /usr/src/utils/ar install
+
+[license]
+OSL-3.0

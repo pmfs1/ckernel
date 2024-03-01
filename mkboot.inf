@@ -1,0 +1,22 @@
+[package]
+name=mkboot
+author=pmfs1
+
+[source]
+/usr/src/utils/mkboot/
+
+[files]
+/usr/src/utils/mkboot/
+/bin/mkboot.exe
+
+[dependencies]
+sdk
+
+[build]
+make -C /usr/src/utils/mkboot
+
+[install]
+make -C /usr/src/utils/mkboot install
+
+[license]
+OSL-3.0
