@@ -1,0 +1,10 @@
+[package]
+name=sdk
+
+[dependencies]
+cc
+as
+clib
+make
+impdef
+ar

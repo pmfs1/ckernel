@@ -1,0 +1,24 @@
+[package]
+name=cmds
+author=pmfs1
+
+[source]
+/usr/src/cmds/
+
+[files]
+/usr/src/cmds/
+/bin/find.exe
+/bin/grep.exe
+/bin/ping.exe
+
+[dependencies]
+sdk
+
+[build]
+make -C /usr/src/cmds
+
+[install]
+make -C /usr/src/cmds install
+
+[license]
+OSL-3.0

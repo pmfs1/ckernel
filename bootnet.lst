@@ -1,0 +1,16 @@
+/bin
+/boot
+/dev
+/proc
+/etc
+/mnt
+/usr
+/tmp
+
+/boot/os.dll      win\install\boot\os.dll
+/bin/sh.exe       win\install\bin\msh.exe
+
+/boot/rtl8139.sys  win\install\boot\rtl8139.sys
+
+/boot/krnl.ini    krnl.ini
+/etc/os.ini       osnet.ini

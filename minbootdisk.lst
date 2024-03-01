@@ -1,0 +1,7 @@
+/bin
+/boot
+/dev
+/proc
+
+/boot/os.dll       boot\os.dll
+/bin/sh.exe        bin\sh.exe

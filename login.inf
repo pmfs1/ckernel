@@ -1,0 +1,22 @@
+[package]
+name=login
+author=pmfs1
+
+[source]
+/usr/src/utils/login/
+
+[files]
+/usr/src/utils/login/
+/bin/login.exe
+
+[dependencies]
+sdk
+
+[build]
+make -C /usr/src/utils/login
+
+[install]
+make -C /usr/src/utils/login install
+
+[license]
+OSL-3.0

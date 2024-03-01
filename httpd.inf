@@ -1,0 +1,23 @@
+[package]
+name=httpd
+author=pmfs1
+
+[source]
+/usr/src/utils/httpd/
+
+[files]
+/usr/src/utils/httpd/
+/bin/httpd.dll
+/usr/lib/httpd.def
+
+[dependencies]
+sdk
+
+[build]
+make -C /usr/src/utils/httpd
+
+[install]
+make -C /usr/src/utils/httpd install
+
+[license]
+OSL-3.0

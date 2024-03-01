@@ -1,0 +1,22 @@
+[package]
+name=genvmdk
+author=pmfs1
+
+[source]
+/usr/src/utils/genvmdk/
+
+[files]
+/usr/src/utils/genvmdk/
+/bin/genvmdk.exe
+
+[dependencies]
+sdk
+
+[build]
+make -C /usr/src/utils/genvmdk
+
+[install]
+make -C /usr/src/utils/genvmdk install
+
+[license]
+OSL-3.0

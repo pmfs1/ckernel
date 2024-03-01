@@ -1,0 +1,24 @@
+[package]
+name=impdef
+author=pmfs1
+
+[source]
+/usr/src/utils/impdef/
+
+[files]
+/usr/src/utils/impdef/
+/usr/bin/impdef.exe
+
+[dependencies]
+cc
+clib
+make
+
+[build]
+make -C /usr/src/utils/impdef
+
+[install]
+make -C /usr/src/utils/impdef install
+
+[license]
+OSL-3.0

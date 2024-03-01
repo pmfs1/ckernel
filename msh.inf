@@ -1,0 +1,22 @@
+[package]
+name=msh
+author=pmfs1
+
+[source]
+/usr/src/utils/msh/
+
+[files]
+/usr/src/utils/msh/
+/bin/msh.exe
+
+[dependencies]
+sdk
+
+[build]
+make -C /usr/src/utils/msh
+
+[install]
+make -C /usr/src/utils/msh install
+
+[license]
+OSL-3.0

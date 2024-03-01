@@ -1,0 +1,28 @@
+/bin
+/boot
+/etc
+/dev
+/mnt
+/proc
+/usr
+/tmp
+/var
+
+/boot/boot          boot/boot
+/boot/osldr.dll     boot/osldr.dll
+/boot/os.dll        boot/os.dll
+
+/bin/sh.exe         bin/sh.exe
+/bin/edit.exe       bin/edit.exe
+
+/boot/pcnet32.sys   boot/pcnet32.sys
+/boot/ne2000.sys    boot/ne2000.sys
+/boot/3c905c.sys    boot/3c905c.sys
+/boot/rtl8139.sys   boot/rtl8139.sys
+/boot/eepro100.sys  boot/eepro100.sys
+/boot/sis900.sys    boot/sis900.sys
+/boot/tulip.sys     boot/tulip.sys
+/boot/virtionet.sys boot/virtionet.sys
+
+/boot/krnl.ini      boot/krnl.ini
+/etc/os.ini         etc/os.ini

@@ -1,0 +1,35 @@
+/bin
+/dev
+/proc
+/etc
+/tmp
+/usr
+/usr/bin
+/usr/include
+/usr/lib
+/usr/src
+
+/boot/krnl.ini       krnlrel.ini
+/boot/os.dll         bin\os.dll
+/bin/sh.exe          bin\sh.exe
+/bin/edit.exe        bin\edit.exe
+
+/boot/pcnet32.sys    bin\pcnet32.sys
+/boot/ne2000.sys     bin\ne2000.sys
+/boot/tulip.sys      bin\tulip.sys
+
+/etc/os.ini          osdev.ini
+
+/usr/bin/cc.exe      img\usr\bin\cc.exe
+
+/usr/lib/os.def      img\usr\lib\os.def
+/usr/lib/libc.a      img\usr\lib\libc.a
+
+/usr/include         img\usr\include
+
+/usr/src/hello.c     utils\samples\hello.c
+/usr/src/fib.c       utils\samples\fib.c
+/usr/src/webserver.c utils\samples\webserver.c
+/usr/src/edit.c      src\utils\edit\edit.c
+/usr/src/telnetd.c   src\utils\telnetd\telnetd.c
+/usr/src/login.c     src\utils\login\login.c
